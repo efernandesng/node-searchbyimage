@@ -27,7 +27,9 @@
     "eslint-plugin-babel": "^3.2.0"
   },
   "dependencies": {
+    "bluebird": "^3.3.5",
     "cheerio": "^0.20.0",
-    "superagent": "^1.8.3"
+    "superagent": "^1.8.3",
+    "valid-url": "^1.0.9"
   }
 }
