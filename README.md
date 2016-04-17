@@ -39,9 +39,9 @@ searchByImage(image).then((res)=> {
 
 ## Documentation
 
-### searchByImage ( localImageFile, [options,] [callback] ) -> Promise
+#### searchByImage ( localImageFile, [options,] [callback] ) -> Promise
 
-### searchByImage ( imageUrl, [options,] [callback] ) -> Promise
+#### searchByImage ( imageUrl, [options,] [callback] ) -> Promise
 
 ## Tests
 
