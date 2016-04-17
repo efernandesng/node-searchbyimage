@@ -4,9 +4,9 @@
   "description": "Search Google with an image",
   "main": "./dist/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint -c .eslintrc src",
     "build": "babel src --out-dir dist",
+    "lint": "eslint -c .eslintrc src",
+    "test": "npm run build && mocha --compilers js:babel-core/register",
     "prepublish": "npm run build"
   },
   "keywords": [
