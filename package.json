@@ -36,5 +36,12 @@
     "cheerio": "^0.20.0",
     "superagent": "^1.8.3",
     "valid-url": "^1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/efernandesng/node-searchbyimage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/efernandesng/node-searchbyimage/issues"
   }
 }
