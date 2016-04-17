@@ -1,7 +1,7 @@
 {
   "name": "searchbyimage",
   "version": "0.0.1",
-  "description": "Search Google with an image",
+  "description": "Guess the image content using Google search",
   "main": "./dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist",
