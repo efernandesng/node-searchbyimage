@@ -1,6 +1,6 @@
 {
   "name": "searchbyimage",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Guess the image content using Google search",
   "main": "./dist/index.js",
   "scripts": {
