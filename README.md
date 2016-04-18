@@ -9,7 +9,7 @@ Guess the image content using Google search.
 ## Installation
 
 ```bash
-$ npm install searchbyimage
+$ npm install searchbyimage -S
 ```
 
 ## Example
@@ -45,10 +45,11 @@ searchByImage(image).then((res)=> {
 
 ## Tests
 
-To run the test suite, first install the dependencies, then run `npm test`:
+To run the test suite, first install the dependencies, compile and then run `npm test`:
 
 ```bash
 $ npm install
+$ npm run build
 $ npm test
 ```
 
